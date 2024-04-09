@@ -1,0 +1,162 @@
+
+/*ESTILO GERAL*/
+*{margin: o;
+    padding: o;
+    box-sizing: border-box;
+    .ubuntu-light {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .ubuntu-regular {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .ubuntu-medium {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .ubuntu-bold {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .ubuntu-light-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .ubuntu-regular-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .ubuntu-medium-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .ubuntu-bold-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+    
+
+.flex{display: flex;
+}
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: rgb(67, 118, 228);
+}
+}
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/*ESTILO DO CABEÇALHO*/
+header {
+padding: 40PX 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #4e4e4e;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+
+}
+
+header a:hover{
+color: #fff;
+transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(67, 118, 228);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgba(52, 89, 168, 0.767);
+}
+/* ESTILO TOPO */
+section.topo-do-site{
+    padding: 40px 4%;
+    
+}
+section.topo-dos-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+}
+.topo-do-site p{color: #fff;
+}
+.topo-do-site .img-topo img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+section.especialidades{
+    padding: 40px;
+}
+.especialidades .espercialidades-box{
+    color: #fff;
+    padding: 40px;
+}
+.especialidades .espercialidades-box i{
+    font-size: 70px;
+    color: rgb(67, 118, 228);
+}
+.especialidades .espercialidades-box h3{
+    font-size: 26px;
+}
